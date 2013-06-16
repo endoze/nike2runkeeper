@@ -1,12 +1,16 @@
 # Nike2Runkeeper
 
-TODO: Write a gem description
+This is a work in progress!
+
+This gem is designed to help you extract data from the Nike+ service and
+import it into RunKeeper.
+
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'nike_2_runkeeper'
+    gem 'nike2runkeeper'
 
 And then execute:
 
@@ -14,11 +18,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install nike_2_runkeeper
-
-## Usage
-
-TODO: Write usage instructions here
+    $ gem install nike2runkeeper
 
 ## Contributing
 
