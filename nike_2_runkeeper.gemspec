@@ -6,8 +6,8 @@ require 'nike_2_runkeeper/version'
 Gem::Specification.new do |spec|
   spec.name          = "nike_2_runkeeper"
   spec.version       = Nike2Runkeeper::VERSION
-  spec.authors       = ["Endoze"]
-  spec.email         = ["endoze@endozemedia.com"]
+  spec.authors       = ['Endoze']
+  spec.email         = ['endoze@endozemedia.com']
   spec.description   = %q{ Helps transfer data from Nike to RunKeeper }
   spec.summary       = %q{ Helps transfer data from Nike to RunKeeper }
   spec.homepage      = ""
@@ -18,8 +18,9 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
-  spec.add_development_dependency "bundler", "~> 1.3"
-  spec.add_development_dependency "rake"
+  spec.add_development_dependency 'bundler', '~> 1.3'
+  spec.add_development_dependency 'rake'
+  spec.add_development_dependency 'rspec'
   spec.add_dependency             'nike'
   spec.add_dependency             'health_graph'
 end
