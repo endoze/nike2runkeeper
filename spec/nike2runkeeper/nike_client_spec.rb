@@ -1,5 +1,4 @@
 require 'spec_helper'
-require 'nike_2_runkeeper/core'
 
 describe Nike2Runkeeper::NikeClient do
   describe "#new" do

@@ -1,8 +1,9 @@
-require 'coveralls'
-Coveralls.wear!
 $LOAD_PATH.unshift(File.dirname(__FILE__))
 $LOAD_PATH.unshift(File.join(File.dirname(__FILE__), '..', 'lib'))
-require 'nike_2_runkeeper'
+require 'nike2runkeeper'
+
+require 'coveralls'
+Coveralls.wear!
 
 RSpec.configure do |config|
   config.treat_symbols_as_metadata_keys_with_true_values = true

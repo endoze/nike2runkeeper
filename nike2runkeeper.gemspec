@@ -1,10 +1,10 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'nike_2_runkeeper/version'
+require 'nike2runkeeper/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "nike_2_runkeeper"
+  spec.name          = "nike2runkeeper"
   spec.version       = Nike2Runkeeper::VERSION
   spec.authors       = ['Endoze']
   spec.email         = ['endoze@endozemedia.com']
