@@ -12,8 +12,9 @@ module Nike2Runkeeper
     end
 
     def get_activities
-      nike_activities = @client.activities
+      return @activities if @activities
 
+      nike_activities = @client.activities
       nike_activities.each do |a|
         @activities << @client.activity(a.activity_id)
       end
